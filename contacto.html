@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--encabezado y barra de navegacion principal-->
+    <header>
+        <div class="encabezado">
+            <img src="./imagenes/sirius.PNG" alt="Logo Sirius" width="200px" class="logo">
+            <section class="titulo">
+                <h1> Bienvenido a SiriusD</h1>
+                <h2>El futuro es ahora </h2>
+            </section>
+        </div>
+        <div class="barra-principal">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./productos.html">Productos</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h3 class="sub-titulo">Ante cualquier duda, no dudes en contactarnos</h3>
+        <div class="contacto">
+            <div class="sub-contacto">
+                <!--redes sociales-->
+                <section class="redes-sociales">
+                    <p>En SiriusD estamos comprometidos en brindarte el mejor servicio, para mas informacion y una mejor
+                        atencion no dudes en contactarnos a travez de nuestras redes sociales o los medios disponibles.
+                    </p>
+                    <a href=""><i class="fa-brands fa-whatsapp" style="color: #d8f4d8;"></i>. WhatsApp</a>
+                    <a href=""><i class="fa-brands fa-instagram" style="color: #d8f4d8;"></i>. Instagran</a>
+                    <a href=""><i class="fa-brands fa-facebook-f" style="color: #d8f4d8;"></i>. Facebook</a>
+                    <a href=""><i class="fa-brands fa-linkedin" style="color: #d8f4d8;"></i>. Linked-In</a>
+                </section>
+                <!--formulario de correo-->
+                <section>
+                    <h3>Formulario de Contacto</h3>
+                    <form action="https://formspree.io/f/mvgaakyq" method="POST">
+                        <input type="texto" name="Nombres" id="nombre" placeholder="Ingrese su nombre">
+                        <br>
+                        <input type="email" name="Email" id="email" placeholder="Ingrese su email">
+                        <br>
+                        <input type="tel" name="Telefono" id="telefono" placeholder="Ingrese su telefono">
+                        <br>
+                        <textarea name="Consulta" id="consulta" cols="30" rows="10"
+                            placeholder="Ingrese su consulta"></textarea>
+                        <br>
+                        <input type="submit" name="Submit" id="submit" placeholder="Enviar">
+                        <br>
+                        <input type="reset" name="Reset" id="reset" placeholder="Resetear">
+                    </form>
+                </section>
+            </div>
+            <div class="sub-contacto">
+                <!-- ubicacion google maps-->
+                <section class="ubicacion">
+                    <h3>Ubicacion</h3>
+                    <p>Estamos ubicados en Cua. Estado Miranda</p>
+                    <p>Para llegar a nuestras instalaciones, puedes seguir las siguientes indicaciones:</p>
+                    <p>No dudes en visitarnos</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9339.835133468629!2d-66.90343091681329!3d10.187400527417696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1746456540361!5m2!1ses!2sar"
+                        width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--pie de pagina-->
+    <footer>
+        <div class="pie-pagina">
+            <p>Desarrolalador Alvaro Duarte - 2025| <a
+                    href="mailto:alvaroduarte14@gmail.com">alvaroduarte14@gmail.com</a></p>
+            <a href="https://facebook.com/alvarod14"><i class="fa-brands fa-facebook-f" style="color: #a8e4b7;"></i></a>
+            <a href="https://instagram.com/alvarod14"><i class="fa-brands fa-instagram" style="color: #a8e4b7;"></i></a>
+            <a href="https://wa.me/+5491124079156"><i class="fa-brands fa-whatsapp" style="color: #a8e4b7;"></i></a>
+            <p>&copy; 2023 SiriusD. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

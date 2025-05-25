@@ -1,0 +1,24 @@
+# Proyecto de Curso de Front-End
+
+Este proyecto es parte del curso de Front-End. Aquí encontrarás los archivos y recursos desarrollados durante el curso.
+
+## Estructura del Proyecto
+
+- `index.html` - Página principal
+- `styles/` - Hojas de estilo CSS
+- `scripts/` - Archivos JavaScript
+
+## Tecnologías Utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Instrucciones
+
+1. Clona el repositorio.
+2. Abre `index.html` en tu navegador.
+3. Modifica y experimenta con el código según lo aprendido en el curso.
+
+## Autor
+Alvaro Duarte
