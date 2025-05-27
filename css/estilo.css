@@ -19,7 +19,6 @@ header {
     background-repeat: no-repeat;
     box-sizing: border-box;
     width: 100%;
-    max-width: auto;
     height: 25vh;
     padding-top: 3%;
     display: flex;
@@ -30,7 +29,6 @@ header {
 main {
     display: flex;
     width: 100%;
-    max-width: auto;
     padding-top: 1%;
     display: flex;
     justify-content: space-around;
@@ -115,7 +113,6 @@ h1 {
 .presentacion {
     display: flex;
     width: 100%;
-    max-width: auto;
     background-color: rgba(6, 69, 41, 0.829);
     box-shadow: 0 3px 5px (0, 0, 0, 0.5);
     box-sizing: border-box;
@@ -166,7 +163,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(97, 134, 117, 0.744);
     margin: 0%;
 }
 
